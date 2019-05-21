@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="El Jefe"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2019-05-21 09:11:28 AM"/>
+        <attribute name="saved" value="2019-05-21 09:22:35 AM"/>
         <attribute name="created" value="RWwgSmVmZTtMQVBUT1AtUjJUVDI3MTE7MjAxOS0wNS0yMTswODoxNzo1MSBBTTsyODcw"/>
-        <attribute name="edited" value="RWwgSmVmZTtMQVBUT1AtUjJUVDI3MTE7MjAxOS0wNS0yMTswOToxMToyOCBBTTsxOzI5Nzc="/>
+        <attribute name="edited" value="RWwgSmVmZTtMQVBUT1AtUjJUVDI3MTE7MjAxOS0wNS0yMTswOToyMjozNSBBTTsyOzI5Nzg="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -26,7 +26,7 @@
             <assign variable="sum" expression="0"/>
             <declare name="i" type="Integer" array="False" size=""/>
             <for variable="i" start="1" end="upperLimit" direction="inc" step="1">
-                <assign variable="sum" expression="sum + i"/>
+                <assign variable="sum" expression="(upperLimit * (upperLimit + 2))/ 2"/>
             </for>
             <output expression="&quot;you're totally awesome and the sum is &quot; &amp; sum" newline="True"/>
         </body>
